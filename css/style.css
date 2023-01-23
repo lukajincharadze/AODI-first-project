@@ -1,0 +1,259 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli-bold/css/bpg-nino-mtavruli-bold.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-ingiri-arial/css/bpg-ingiri-arial.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-elite-caps/css/bpg-nino-elite-caps.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, "BPG Nino Mtavruli Bold";
+}
+
+header {
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+body {
+  box-sizing: border-box; 
+}
+
+ul {
+    list-style: none
+}
+
+li a {
+    line-height: 1.4;
+    letter-spacing: -1;
+}
+
+.first__li, .second__li, .third__li {
+    text-decoration: none;
+    font-size: 22px;
+    color: #3D58A6;
+}
+
+.active {
+    color: #ee4036;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.news__p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: "BPG Ingiri Arial", sans-serif;
+}
+
+.numbers {
+    background-color: #3D58A6;
+    color: #fff;
+    padding: 10px;
+    font-size: 32px;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.mayTitle {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-weight: 400;
+}
+
+.contact__Info__Title {
+    color: #3D58A6;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+span {
+    opacity: 50%;
+}
+
+ul li p {
+    margin-bottom: 5px;
+}
+
+ul a {
+    margin-bottom: 40px;
+}
+
+li {
+    margin-left: 25px;
+    vertical-align: 8px;
+}
+
+.html__logo, li {
+    display: inline-block;
+}
+
+.img-container {
+    margin: 0 auto;
+    width: 1170px;
+    height: 460px;
+}
+
+.articles {
+    margin-left: 30px;
+}
+
+
+.may-date {
+    color: #3D58A6;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+}
+
+.img-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 39px;
+}
+
+.p-div {
+    display: inline-block;
+    width: 929px;
+    height: 360px;
+}
+
+.first-article, .second-article {
+    margin-bottom: 80px;
+}
+
+.both__divs {
+    background-color: #E6E6E6;
+    padding-top: 49px;
+    padding-bottom: 55px;
+}
+
+.contant-info__div {
+    width: 250px;
+    height: 92px;
+    margin-right: 55px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 98px;
+}
+
+.contact__map-div {
+    display: inline-block;
+}
+
+.contact_li {
+    font-size: 16px;
+}
+
+.contact_li-a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact__lists {
+    margin-left: 0;
+}
+
+.contact__nav {
+    margin-bottom: -15px;
+}
+
+.map {
+    width: 874px;
+    height: 466px;
+}
+
+a {text-decoration: none; color: #000;}
+/* Featured Section (MAIN PAGE) */
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-block {
+    width: 570px;
+    display: inline-block;
+    background-color: #F2F2F2;
+    padding: 13px 24px 25px 21px;
+}
+
+.right-block {
+    width: 570px;
+    display: inline-block;
+    background-color: #F2F2F2;
+    padding: 13px 24px 25px 21px;
+    margin-left: 25px;
+}
+
+.text-block {
+    display: inline-block;
+    width: 355px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.image-block {
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.title-block {
+    font-size: 22px;
+    margin-bottom: 13px;
+    font-weight: normal;
+    color: #3D58A6;
+}
+
+.h3Featurerd-title {
+    font-size: 24px;
+    color: #000;
+    margin-top: 114px;
+    margin-bottom: 42px;
+    font-weight: 400;
+}
+/* END OF Featured Section (MAIN PAGE) */
+
+
+/* Footer */
+.fb__logo {
+    display: inline-block;
+}
+
+
+.for-news__footer {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.for-contact__footer {
+    margin-top: 35px;
+    margin-left: 48px;
+    margin-bottom: 29px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.line__inlogos {
+    width: 1px;
+    height: 27px;
+    background-color: #3D58A6;
+    display: inline-block;
+    margin-left: 36px;
+    margin-right: 31px;
+}
+/* END of Footer */
